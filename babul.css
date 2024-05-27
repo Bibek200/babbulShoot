@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0; 
+     box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #6bc7596e;
+    
+    /* border: 2px solid darkblue; */
+}
+
+.card{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 10px 5px #787272;
+    /* display: flex;
+    flex-direction: column; */
+  
+}
+.cardtop{
+    /* position: relative; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b9f37d1;
+    padding: 0 25px;
+}
+
+.elam{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.empt{
+    height: 30px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #1b945c;
+}
+
+.cardbtm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+    height:calc(100% - 100px);
+    padding: 0px 10px;
+    /* overflow: auto; */
+   /* background: #000; */
+    
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* font-size: 15px; */
+    font-weight: 600;
+    background-color: #33ca83;
+    color: #fff;
+    transition: all ease 0.5s;
+   
+}
+.btn:hover{
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color:#1b945c;
+    /* box-shadow: 0px 5px 5px 0px #8f9089; */
+}
+button{
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1b945c;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
